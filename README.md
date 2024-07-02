@@ -17,3 +17,11 @@ Lo que aprendimos
 - Aprendimos a utilizar estructuras condicionales (if/else) para generar lógicas que permiten al programa tomar decisiones basadas en condiciones específicas.
 - Implementamos un bloque de código para mostrar un mensaje en caso de que el intento del usuario no coincida con el número secreto.
 - Usamos Template Strings para concatenar el número secreto con el valor almacenado en una variable y mostrar un mensaje personalizado.
+
+## 03. Loops y tentativas
+
+En esta lección:
+
+- Aprendimos a comprobar si un número es mayor o menor que otro usando estructuras condicionales (if/else), y sobre condicionales anidados, en nuestro programa.
+- Usamos el bucle " while " para repetir un bloque de código mientras una cierta condición sea verdadera, permitiendo así que el programa realice una acción varias veces.
+- Implementamos un contador de intentos para hacer un seguimiento y mostrar la cantidad de veces que el usuario intentó adivinar un número secreto. Podemos hacer esto, por ejemplo, en un juego de adivinanza.
