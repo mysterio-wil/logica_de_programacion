@@ -1,12 +1,13 @@
 // Variables
-let numeroSecreto = 6;
+let numeroSecreto = Math.floor(Math.random() * 10) + 1;
 let numeroUsuario = 0;
 let intentos = 1;
-let maximoIntentos = 2;
 // let palabraVeces = "vez";
+let maximoIntentos = 3;
+
 while(numeroUsuario != numeroSecreto) {
-    numeroUsuario = prompt("Me indicas un número por favor:");
-    console.log(numeroUsuario);
+    numeroUsuario = parseInt(prompt("Me indicas un número entre 1 y 10 por favor:"));
+    console.log(typeof(numeroUsuario));
     /* Este código realiza la comparación */
     if (numeroUsuario == numeroSecreto) {
         // Acertamos, fue verdadera la condición.
@@ -24,7 +25,7 @@ while(numeroUsuario != numeroSecreto) {
 
         // palabraVeces = "veces";
         if (intentos > maximoIntentos) {
-            alert(`Llegaste al número máximo de ${intentos} intentos`);
+            alert(`Llegaste al número máximo de ${maximoIntentos} intentos`);
             break
         }
         // No acertamos, fue falsa la condición.
