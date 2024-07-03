@@ -42,8 +42,11 @@ if (edad >= 18) {
 let numero = prompt("Ingresa un número");
 if (numero > 0) {
     console.log("El número es positivo");
-}else {
+}else if (numero < 0){
     console.log("El número es negativo");
+} else {
+    console.log("El número es cero");
+
 }
 
 /*9. Utiliza un bucle while para mostrar los números del 1 al 10 en la consola.*/
